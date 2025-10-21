@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractClass/AbstractClass.iml" filepath="$PROJECT_DIR$/AbstractClass/AbstractClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CLI/CLI.iml" filepath="$PROJECT_DIR$/CLI/CLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassExamplesGitRepo.iml" filepath="$PROJECT_DIR$/ClassExamplesGitRepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUnitTest/JUnitTest.iml" filepath="$PROJECT_DIR$/JUnitTest/JUnitTest.iml" />
+    </modules>
+  </component>
+</project>
