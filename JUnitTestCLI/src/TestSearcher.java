@@ -26,7 +26,7 @@ public class TestSearcher
   }
 
 
-/*
+
   @Test
   public void testSingleElementArrayTargetFound(){
   
@@ -65,7 +65,7 @@ public class TestSearcher
 	int actual = s.search(3);
   	assertEquals(4, actual);
   }
-*/
+
 
   public static void main(String[] args) 
   {
