@@ -17,13 +17,13 @@ class Searcher
 
   public int search(int needle)
   {
-	  /*if(hayStack.length > 0) //&& hayStack[0]==needle) return 0;
+	  if(hayStack.length > 0) //&& hayStack[0]==needle) return 0;
 	  {
 	  	for(int i = 0; i < hayStack.length; i++){
 			if(hayStack[i] == needle)
 				return i;
 		}
-	  }*/
+	  }
 	  
 	  return 0;
   }
