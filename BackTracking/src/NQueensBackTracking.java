@@ -9,19 +9,21 @@ public class NQueensBackTracking {
 
     public static boolean NQueens(int[][] chessboard, int queens){
         // TO DO
-
+        //base case
         if(queens == 0){
             print(chessboard);
             return true;
         }
-        else{
+        else{ //recursive case
             int currentRow = chessboard.length - queens;
             for(int i = 0; i < chessboard.length; i++) {
                 if(isSafe(chessboard, currentRow, i)) {
                     // 1. make a choice
                     chessboard[currentRow][i] = 1;
                     // 2. explore
-                    NQueens(chessboard, queens - 1);
+                    boolean result = NQueens(chessboard, queens - 1);
+                    if(result)
+                        return true;
                     // 3. unmake a choice
                     chessboard[currentRow][i] = 0;
                 }
