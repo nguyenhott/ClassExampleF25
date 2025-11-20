@@ -89,6 +89,35 @@ public class LinkedBST<E extends Comparable<E>> extends AbstractBST<E>{
             return this;
         }
 
+        private void preorderPrint()
+        {
+            System.out.print(value + " ");
+            if (left != null)
+                left.preorderPrint();
+            if (right != null)
+                right.preorderPrint();
+        }
+
+
+        private void inorderPrint()
+        {
+            if (left != null)
+                left.inorderPrint();
+            System.out.print(value + " ");
+            if (right != null)
+                right.inorderPrint();
+        }
+
+
+        private void postorderPrint()
+        {
+            if (left != null)
+                left.postorderPrint();
+            if (right != null)
+                right.postorderPrint();
+            System.out.print(value + " ");
+        }
+
     }
 
 
@@ -118,5 +147,34 @@ public class LinkedBST<E extends Comparable<E>> extends AbstractBST<E>{
                 root = root.delete(target);
             return found;
         }
+
+    public void preorderPrint()
+    {
+        if (root == null)
+            System.out.print("empty tree");
+        else
+            root.preorderPrint();
+        System.out.println("");
+    }
+
+
+    public void inorderPrint()
+    {
+        if (root == null)
+            System.out.print("empty tree");
+        else
+            root.inorderPrint();
+        System.out.println("");
+    }
+
+
+    public void postorderPrint()
+    {
+        if (root == null)
+            System.out.print("empty tree");
+        else
+            root.postorderPrint();
+        System.out.println("");
+    }
 
 }
