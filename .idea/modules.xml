@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractClass/AbstractClass.iml" filepath="$PROJECT_DIR$/AbstractClass/AbstractClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/BackTracking/BackTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" filepath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/CLI/CLI.iml" filepath="$PROJECT_DIR$/CLI/CLI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassExamplesGitRepo.iml" filepath="$PROJECT_DIR$/ClassExamplesGitRepo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComparableInterface/ComparableInterface.iml" filepath="$PROJECT_DIR$/ComparableInterface/ComparableInterface.iml" />
