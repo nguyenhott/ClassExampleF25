@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUnitTest/JUnitTest.iml" filepath="$PROJECT_DIR$/JUnitTest/JUnitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUnitTestCLI/JUnitTestCLI.iml" filepath="$PROJECT_DIR$/JUnitTestCLI/JUnitTestCLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PriorityQueue/PriorityQueue.iml" filepath="$PROJECT_DIR$/PriorityQueue/PriorityQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetandMap/SetandMap.iml" filepath="$PROJECT_DIR$/SetandMap/SetandMap.iml" />
     </modules>
   </component>
 </project>
